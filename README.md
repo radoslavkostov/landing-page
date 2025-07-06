@@ -1,1 +1,1 @@
-# landing-page
+This is the Landing Page exercise for The Odin Project
