@@ -10,6 +10,7 @@ body {
     flex-direction: column;
 }
 
+/* header */
 .header-container {
     background-color: #1F2937;
     height: 5vh;
@@ -43,12 +44,12 @@ a {
     color: #E5E7EB;
 }
 
+/* hero */
 .hero-container {
     background-color: #1F2937;
     height: 40vh;
     display: flex;
 }
-
 
 .hero {
     display: flex;
@@ -93,6 +94,7 @@ a {
     border-radius: 5px;
 }
 
+/* main */
 .main-container {
     display: flex;
     flex-direction: column;
@@ -102,11 +104,10 @@ a {
 }
 
 .main-container .title {
-    display: flex;
-    justify-content: center;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    text-align: center;
 }
 
 .cards {
@@ -133,6 +134,7 @@ a {
     border-radius: 5px;
 }
 
+/* quote */
 .quote-container {
     background-color: #E5E7EB;
     height: 40vh;
@@ -145,6 +147,7 @@ a {
     display: flex;
     flex-direction: column;
     width: 50%;
+    gap: 1rem;
 }
 
 .quote-content {
@@ -161,6 +164,7 @@ a {
     color: rgb(48, 47, 47);
 }
 
+/* pop-up */
 .pop-up-container {
     height: 30vh;
     display: flex;
@@ -195,6 +199,7 @@ a {
     border-radius: 5px;
 }
 
+/* footer */
 .footer-container {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -203,5 +208,4 @@ a {
     justify-content: center;
     align-items: center;
 }
-
 
